@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configuration
-CURRENT_VERSION = "1.0.0"
+CURRENT_VERSION = "1.0.1"
 APP_FILE = "test_app.exe"
 
 @app.route('/')
