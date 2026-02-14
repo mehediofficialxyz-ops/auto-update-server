@@ -7,7 +7,7 @@ CORS(app)
 
 # Configuration
 CURRENT_VERSION = "1.0.1"
-APP_FILE = "test_app.exe"
+APP_FILE = "test_app_safe.exe"
 
 @app.route('/')
 def home():
