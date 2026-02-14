@@ -1,1 +1,11 @@
-{"build": {"builder": "NIXPACKS"}, "deploy": {"startCommand": "python railway_server.py", "healthcheckPath": "/health"}}
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "pip install -r requirements_railway.txt",
+    "startCommand": "python railway_server.py"
+  },
+  "deploy": {
+    "startCommand": "python railway_server.py",
+    "healthcheckPath": "/health"
+  }
+}
